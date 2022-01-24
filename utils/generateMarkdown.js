@@ -28,7 +28,7 @@ function renderLicenseBadge(licenseProject) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {
+function renderLicenseLink(licenseProject) {
   let licenseLink;
   switch (licenseProject) {
     case "MIT":
@@ -52,7 +52,7 @@ function renderLicenseLink(license) {
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(licenseProject) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
@@ -95,8 +95,8 @@ function generateMarkdown(data) {
   This project is licensed under the ${data.licenseProject} license.
 
   ## Questions
-  If you have any questions, you can find me in:
-  Github: https://github.com/${data.githubUsername}
+  If you have any questions, you can find me in: </br>
+  Github: https://github.com/${data.githubUsername} </br>
   Email: $){data.email}
   `;
 }
