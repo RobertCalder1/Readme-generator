@@ -33,7 +33,7 @@ After installing the dependencies, follow these steps:
 After answering the questions, the readMe will be generated in the readme-folder directory. </br>
 
 See below for visual guide on usage: </br>
-![Guide](.\img\readmeGuide.gif)
+![Guide](./img/readmeGuide.gif)
 
 ## License
 
