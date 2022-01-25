@@ -97,7 +97,7 @@ function generateMarkdown(data) {
   ## Questions
   If you have any questions, you can find me in: </br>
   Github: https://github.com/${data.githubUsername} </br>
-  Email: $){data.email}
+  Email: ${data.email}
   `;
 }
 
